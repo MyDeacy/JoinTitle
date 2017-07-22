@@ -27,6 +27,6 @@ class Send extends PluginTask{
 	    $this->player = $player;
 	}
   	public function onRun($tick){
-	  	$this->player->sendTitle("§bWelcome","to example server!!!","20","2","20");
+	  	$this->player->addTitle("§bWelcome","to example server!!!","20","2","20");
   	}
 }  	
